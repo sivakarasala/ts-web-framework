@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "aum namah shivaya",
+      "age": 32
+    },
+    {
+      "name": "rudraya",
+      "age": 31,
+      "id": 2
+    }
+  ]
+}
