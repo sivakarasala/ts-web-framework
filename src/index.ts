@@ -1,9 +1,10 @@
 import { User } from "./models/User";
 
-const user = User.buildUser({ id: 2 });
+const collection = User.buildUserCollection();
 
-user.on("change", () => {
-  console.log("aum namah shivaya", user);
+collection.on("change", () => {
+  console.log(collection);
+  console.log("aum namah shivaya");
 });
 
-user.fetch();
+collection.fetch();
